@@ -1,0 +1,17 @@
+pipeline {
+   agent any
+
+   stages {
+      stage('Design') {
+         steps {
+            echo 'Design A Concept car'
+         }
+      }
+      stage('Build') {
+         steps {
+            echo 'Built A Concept car'
+         }
+      }
+          
+   }
+}
